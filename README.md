@@ -1,6 +1,7 @@
 # Proxmox - IX Colombia
 ## _Guía definitiva_
-Guía Práctica - Instalación y Configuración de Proxmox en IX Colombia
+Guía Práctica - Instalación y Configuración de Proxmox
 
-[1]: (https://github.com/ebertlast/proxmox/blob/main/assets/0001.png)
+## Creación de la máquina virtual
+![N|Solid](https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0001.png)
 
