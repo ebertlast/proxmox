@@ -23,7 +23,9 @@ ping 8.8.8.8 -t
 [N|Solid][008]
 
 ## 3. Instalación del Proxmox
-
+  1. **Primera Opción**![N|Solid][009]
+  2. **Colocar contraseña root**![N|Solid][010]
+  3. **Configurar dominio**![N|Solid][010]
 
 
 [001]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0001.png
@@ -35,5 +37,7 @@ ping 8.8.8.8 -t
 [007]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0007.png
 [008]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0008.png
 [009]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0009.png
+[010]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0010.png
+[011]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0011.png
 
 [Naranja]: http://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22221-cat-icon.png
