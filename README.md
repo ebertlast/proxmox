@@ -27,6 +27,17 @@ ping 8.8.8.8 -t
   2. **Colocar contraseña root**![N|Solid][010]
   3. **Configurar dominio**![N|Solid][010]
 
+## 4. Actualización del Sistema
+```sh
+apt-get update
+apt-get upgrade
+```
+
+## 5. Instalación de Herramientas
+```sh
+apt-get install lynx iptraf-ng apt-file screen traceroute net-tools ethtool
+```
+
 
 [001]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0001.png
 [002]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0002.png
