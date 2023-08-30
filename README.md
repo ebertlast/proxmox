@@ -62,7 +62,25 @@ lynx webmin.com
 ```sh
 apt-get install ./webmin_2.102_all.deb -y
 ```
-## 8. Instalar el webmin
+## 9. Borrar el LVM innecesario y ocuparlo en root
+  1. Dentro del proxmox debemos navegar hasta Centro de Datos / Almacenamiento
+   - Seleccionar local-lvm
+   - Dar click al botón Eliminar
+   - ![N|Solid][0014]
+  2. Ir a la consola de la máquina y borrar el LVM
+
+   ```sh
+    cd /dev/pve
+    lvremove /dev/pve/data
+   ```
+   - ![N|Solid][0015] 
+  3. Entrar al webmin
+   - El **puerto** por **defecto** del **webmin** es el **10000**, entrar con la siguiente url https://ip.de.la.maquina:10000
+   - Una vez dentro debemos navegar hasta **Hardware / Logical Volume Management / Logical Volumes**
+   - Hacer click en **root**
+   - ![N|Solid][0016]
+   -  Seleccionar **Use all free vg space** y click en el boton **Save**
+   - ![N|Solid][0017] 
 
 
 [0001]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0001.png
