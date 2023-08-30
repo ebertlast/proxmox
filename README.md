@@ -46,12 +46,16 @@ apt-get install lynx iptraf-ng apt-file screen traceroute net-tools ethtool
 ```sh
 nano  /root/.bashrc
 ```
-[N|Solid][0012]
+![N|Solid][0012]
 
 ## 7. Descargar el webmin
 ```sh
-nano  /root/.bashrc
+md downloads
+cd downloads
+lynx webmin.com
 ```
+Descargar la opción deb para nuestra distribución debian![N|Solid][0013]
+
 
 
 
