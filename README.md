@@ -54,9 +54,14 @@ md downloads
 cd downloads
 lynx webmin.com
 ```
-Descargar la opción deb para nuestra distribución debian![N|Solid][0013]
+>Descargar la opción deb para nuestra distribución debian 
 
+![N|Solid][0013]
 
+## 8. Instalar el webmin
+```sh
+apt-get install ./webmin_2.102_all.deb -y
+```
 
 
 [0001]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0001.png
@@ -72,5 +77,6 @@ Descargar la opción deb para nuestra distribución debian![N|Solid][0013]
 [0010]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0010.png
 [0011]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0011.png
 [0012]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0012.png
+[0013]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0013.png
 
 [Naranja]: http://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22221-cat-icon.png
