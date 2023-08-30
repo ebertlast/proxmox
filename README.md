@@ -24,8 +24,12 @@ ping 8.8.8.8 -t
 
 ## 3. Instalación del Proxmox
   1. **Primera Opción**![N|Solid][009]
-  2. **Colocar contraseña root**![N|Solid][010]
-  3. **Configurar dominio**![N|Solid][010]
+  2. **Configurar pais e idioma de teclado**![N|Solid][009.5]
+>Si se carga automáticamente el país, es una señal de que tiene internet la máquina virtual.
+  3. **Colocar contraseña root**![N|Solid][010]
+  4. **Configurar hostname**![N|Solid][011]
+
+>Importante: Si se van a configurar varios host como es mi caso, se deben colocar los nombres de los equipos como qry01.ix.in, qry02.ix.in y qry03.ix.in respectivamente
 
 ## 4. Actualización del Sistema
 ```sh
@@ -38,6 +42,11 @@ apt-get upgrade
 apt-get install lynx iptraf-ng apt-file screen traceroute net-tools ethtool
 ```
 
+## 6. Configurar el ambiente
+```sh
+nano  /root/.bashrc
+```
+
 
 [001]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0001.png
 [002]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0002.png
@@ -48,6 +57,7 @@ apt-get install lynx iptraf-ng apt-file screen traceroute net-tools ethtool
 [007]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0007.png
 [008]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0008.png
 [009]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0009.png
+[009.5]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0009.5.png
 [010]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0010.png
 [011]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0011.png
 
