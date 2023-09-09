@@ -86,8 +86,17 @@ apt-get install ./webmin_2.102_all.deb -y
   Por seguridad debemos cambiar el puerto por defecto a 10101 y opcionalmente deshabilitar las conexiones entrantes por IPV6.
    - ![N|Solid][0018]
    - ![N|Solid][0019]
+
+## 11. Cambiar el idioma del webmin
    - ![N|Solid][0020]
 
+## 12. Actualizar los repositorios de Proxmox
+   - ![N|Solid][0021]
+   - ![N|Solid][0022]
+   - ![N|Solid][0023]
+   - ![N|Solid][0024]
+   - ![N|Solid][0025]
+   - ![N|Solid][0026]
 
 
 [0001]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0001.png
@@ -111,5 +120,11 @@ apt-get install ./webmin_2.102_all.deb -y
 [0018]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0018.png
 [0019]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0019.png
 [0020]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0020.png
+[0021]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0021.png
+[0022]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0022.png
+[0023]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0023.png
+[0024]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0024.png
+[0025]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0025.png
+[0026]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0026.png
 
 [Naranja]: http://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22221-cat-icon.png
