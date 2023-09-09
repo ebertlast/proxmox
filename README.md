@@ -82,6 +82,13 @@ apt-get install ./webmin_2.102_all.deb -y
    -  Seleccionar **Use all free vg space** y click en el boton **Save**
    - ![N|Solid][0017] 
 
+## 10. Cambiar puertos por defecto del webmin
+  Por seguridad debemos cambiar el puerto por defecto a 10101 y opcionalmente deshabilitar las conexiones entrantes por IPV6.
+   - ![N|Solid][0018]
+   - ![N|Solid][0019]
+   - ![N|Solid][0020]
+
+
 
 [0001]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0001.png
 [0002]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0002.png
@@ -101,5 +108,8 @@ apt-get install ./webmin_2.102_all.deb -y
 [0015]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0015.png
 [0016]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0016.png
 [0017]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0017.png
+[0018]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0018.png
+[0019]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0019.png
+[0020]: https://raw.githubusercontent.com/ebertlast/proxmox/master/assets/0020.png
 
 [Naranja]: http://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22221-cat-icon.png
